@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import { 
   Database, Layers, KeyRound, 
   ArrowRight, ShieldCheck, Server, Monitor, Users, 
