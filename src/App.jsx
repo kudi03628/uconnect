@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 import { 
   Database, Layers, KeyRound, 
   ArrowRight, ShieldCheck, Server, Monitor, Users, 
@@ -319,6 +318,13 @@ const App = () => {
                 icon={Bot}
                 colorFrom="from-violet-600" colorTo="to-violet-500"
                 features={['설정(U Admin+IVR+AI G/W)', '통계(AICC)', '시나리오']}
+              />
+
+              <DetailedServiceBlock 
+                title="AI Agent" 
+                icon={Bot}
+                colorFrom="from-sky-600" colorTo="to-sky-500"
+                features={['통계', '모니터링']}
               />
 
             </div>
